@@ -3,6 +3,14 @@
 	"compilerOptions": {
 		"strict": true,
 		"module": "NodeNext",
-		"moduleResolution": "NodeNext"
-	}
+		"moduleResolution": "NodeNext",
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true
+	},
+	"include": ["src/**/*", "src/**/*.svelte"]
 }
